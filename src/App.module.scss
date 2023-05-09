@@ -1,0 +1,162 @@
+.container {
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  background-color: var(--background-color-element);
+  width: 100%;
+  display: flex;
+  padding: 15px 20px;
+
+  div {
+    flex: 1;
+  }
+
+  .logo {
+    flex: 1;
+    width: 160px;
+    height: 30px;
+    color: var(--color-black);
+    background-image: url('https://global-uploads.webflow.com/6278ffa…/6278ffa…_sparkloop-dark-logo.svg');
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+
+    li {
+      align-items: center;
+      margin-left: 5px;
+      padding: 10px 20px;
+      display: flex;
+      font-size: 0.95rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      .icon {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  button {
+    color: var(--color-white);
+    background-color: var(--background-color-button);
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    line-height: 1.65em;
+    display: flex;
+    border: none;
+  }
+
+  a {
+    font-weight: 400;
+  }
+}
+
+main section {
+  background-color: var(--background-color-element);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  .sectionTextButtons {
+    padding-top: 75px;
+    padding-bottom: 100px;
+    margin: auto;
+
+    h1 {
+      font-size: 2.75rem;
+    }
+
+    p {
+      width: 45%;
+      color: #171130;
+      letter-spacing: -0.5px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.65em;
+      margin: auto;
+
+      span {
+        color: var(--background-color-button);
+        font-weight: 700;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    button {
+      color: var(--color-white);
+      background-color: var(--background-color-button);
+      border-radius: 5px;
+      align-items: center;
+      margin-left: 20px;
+      padding: 15px 20px;
+      font-weight: 700;
+      font-size: 1.01rem;
+      line-height: 1.65em;
+      display: flex;
+      border: none;
+      box-shadow: 0 3px 6px rgba(45, 51, 93, 0.09);
+    }
+
+    .buttonSecond {
+      background-color: var(--color-white);
+      color: var(--color-black);
+    }
+  }
+}
+
+.sectionBrands {
+  span {
+    color: var(--color-black-light);
+    letter-spacing: -0.1px;
+    font-size: 0.8rem;
+    line-height: 1.75em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 30px;
+
+    img {
+      width: 100%;
+      height: 25px;
+      opacity: 0.8;
+      object-fit: contain;
+    }
+  }
+}
