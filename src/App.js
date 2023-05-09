@@ -6,29 +6,31 @@ export default function App() {
   return (
     <>
       <header>
-        <nav className={styles.container}>
-          <div>
-            <a className={styles.logo} href="/#">
-              sparkloop
-            </a>
-          </div>
-          <ul>
-            <li>
-              <a href="/#">Features</a>
-              <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
-            </li>
-            <li>
-              <a href="/#">Publisher Stories</a>
-            </li>
-            <li>
-              <a href="/#">Pricing</a>
-            </li>
-            <li>
-              <a href="/#">Login</a>
-            </li>
-          </ul>
-          <button>Start For Free</button>
-        </nav>
+        <div>
+          <nav className={styles.containerNav}>
+            <div>
+              <a className={styles.logo} href="/#">
+                sparkloop
+              </a>
+            </div>
+            <ul>
+              <li>
+                <a href="/#">Features</a>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+              </li>
+              <li>
+                <a href="/#">Publisher Stories</a>
+              </li>
+              <li>
+                <a href="/#">Pricing</a>
+              </li>
+              <li>
+                <a href="/#">Login</a>
+              </li>
+            </ul>
+            <button>Start For Free</button>
+          </nav>
+        </div>
       </header>
       <main>
         <section>
@@ -98,7 +100,7 @@ export default function App() {
           />
         </div>
       </section>
-      <section>
+      <section className={styles.container}>
         <div>
           <p>Grow organically with a newsletter referral program</p>
           <p>
