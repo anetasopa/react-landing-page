@@ -1,8 +1,9 @@
+import Component from './component/Component';
 
 export default function App() {
   return (
     <div>
-     <h1>Hello</h1>
+      <Component />
     </div>
   );
 }
