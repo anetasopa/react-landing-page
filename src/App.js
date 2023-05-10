@@ -114,13 +114,19 @@ export default function App() {
               Reward your audience for sharing with friends — and watch your
               newsletter grow 20-200% faster. It couldn't be easier...
             </p>
-            <div>
-              <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
-              <span>Integrate with your email platform in two-clicks</span>
-              <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
-              <span>Automatically fulfil digital and physical rewards</span>
-              <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
-              <span>Show a beautiful, in-email referral section</span>
+            <div className={styles.list}>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Integrate with your email platform in two-clicks
+              </span>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Automatically fulfil digital and physical rewards
+              </span>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Show a beautiful, in-email referral section
+              </span>
             </div>
             <div className={styles.buttons}>
               <button>Find out more</button>
@@ -138,28 +144,30 @@ export default function App() {
             />
           </div>
         </div>
-        <div>
-          <div>
-            <img
-              src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1).jpeg"
-              loading="lazy"
-              width="391"
-              id="w-node-_31ebb885-3ee7-ea14-ea8f-71c8877d9d85-13067427"
-              srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1)-p-500.jpeg 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1)-p-800.jpeg 800w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1).jpeg 980w"
-              sizes="(max-width: 479px) 16vw, (max-width: 767px) 17vw, (max-width: 991px) 42vw, 28vw"
-              alt=""
-            />
-          </div>
-          <div>
-            <p></p>
-            <span>
-              SparkLoop is the fastest way to get a newsletter referral program
-              — like TheSkimm and Morning Brew — up and running. I've tested
-              different referral tools, but{' '}
-              <span>none is as easy to use or as cost effective</span> as
-              SparkLoop.
-            </span>
-            <span></span>
+        <div className={styles.containerInfo}>
+          <div className={styles.containerInfoSecond}>
+            <div>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1).jpeg"
+                loading="lazy"
+                width="391"
+                id="w-node-_31ebb885-3ee7-ea14-ea8f-71c8877d9d85-13067427"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1)-p-500.jpeg 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1)-p-800.jpeg 800w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1).jpeg 980w"
+                sizes="(max-width: 479px) 16vw, (max-width: 767px) 17vw, (max-width: 991px) 42vw, 28vw"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>
+                SparkLoop is the fastest way to get a newsletter referral
+                program — like TheSkimm and Morning Brew — up and running. I've
+                tested different referral tools, but{' '}
+                <span>none is as easy to use or as cost effective</span> as
+                SparkLoop.
+              </p>
+              <span>Dan Oshinsky</span>
+              <span>INBOX COLLECTIVE</span>
+            </div>
           </div>
         </div>
       </section>

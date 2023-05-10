@@ -148,6 +148,10 @@ main section {
       background-color: var(--color-white);
       color: var(--color-black);
     }
+
+    .img {
+      width: 60%;
+    }
   }
 }
 
@@ -196,16 +200,17 @@ main section {
   .containerGrow {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 175px;
 
     h2 {
       margin-bottom: 0.5em;
       color: var(--color-black);
       letter-spacing: -0.5px;
       margin-top: 0;
-      margin-bottom: 0;
       font-size: 24px;
       font-weight: 400;
       line-height: 1.4em;
+      margin-bottom: 0.5em;
 
       span {
         color: var(--background-color-button);
@@ -214,14 +219,26 @@ main section {
     }
 
     p {
-      line-height: 1.25rem;
+      line-height: 1.75rem;
       margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+    }
+
+    .list {
+      display: grid;
+
+      span {
+        margin-bottom: 1.5rem;
+
+        .icon {
+          margin-right: 32px;
+        }
+      }
     }
 
     .buttons {
       display: flex;
       margin-top: 30px;
-      justify-content: center;
     }
 
     button {
@@ -229,7 +246,6 @@ main section {
       background-color: var(--background-color-button);
       border-radius: 5px;
       align-items: center;
-      margin-left: 20px;
       padding: 15px 20px;
       font-weight: 700;
       font-size: 1.01rem;
@@ -240,12 +256,30 @@ main section {
     }
 
     .buttonSecond {
-      background-color: var(--color-white);
       color: var(--color-black);
+      text-align: center;
+      background-color: var(--color-white);
+      box-shadow: none;
+      border-radius: 5px;
+      align-items: center;
+      padding: 14px 24px;
+      font-weight: 700;
+      line-height: 1.65em;
     }
 
     .newsLetterImg {
       width: 90%;
+    }
+
+    .containerInfo {
+      padding: 0 20px;
+
+      .containerInfoSecond {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        display: flex;
+      }
     }
   }
 }
