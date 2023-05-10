@@ -153,6 +153,10 @@ main section {
       width: 60%;
     }
   }
+
+  div img {
+    width: 70%;
+  }
 }
 
 .sectionHeaderSecond {
@@ -201,6 +205,7 @@ main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 175px;
+    grid-column-gap: 150px;
 
     h2 {
       margin-bottom: 0.5em;
@@ -273,8 +278,6 @@ main section {
   }
 
   .containerInfo {
-    padding: 0 20px;
-
     .containerInfoSecond {
       color: #171130;
       background-color: #f8f5fc;
@@ -297,7 +300,7 @@ main section {
         display: flex;
 
         img {
-          width: 40%;
+          width: 30%;
         }
 
         div p {
@@ -350,6 +353,7 @@ main section {
   .containerBoost {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 150px;
     margin-bottom: 175px;
 
     h2 {
@@ -428,8 +432,6 @@ main section {
   }
 
   .containerInfo {
-    padding: 0 20px;
-
     .containerInfoSecond {
       color: #171130;
       background-color: #f8f5fc;
@@ -452,7 +454,7 @@ main section {
         display: flex;
 
         img {
-          width: 40%;
+          width: 30%;
         }
 
         div p {
@@ -508,6 +510,7 @@ main section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 175px;
+    grid-column-gap: 150px;
 
     h2 {
       margin-bottom: 0.5em;
@@ -609,7 +612,7 @@ main section {
         display: flex;
 
         img {
-          width: 40%;
+          width: 30%;
         }
 
         div p {
@@ -687,9 +690,8 @@ main section {
   }
 
   .sectionIntegrationsImages {
-    width: 80%;
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
+    width: 50%;
+    grid-row-gap: 60px;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-left: auto;
