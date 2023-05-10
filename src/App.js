@@ -1,7 +1,6 @@
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './App.module.scss';
-import image1 from './images/1.png';
 
 export default function App() {
   return (
