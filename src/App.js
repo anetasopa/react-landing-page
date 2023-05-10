@@ -164,8 +164,154 @@ export default function App() {
                   <span>none is as easy to use or as cost effective</span> as
                   SparkLoop.
                 </p>
-                <span>Dan Oshinsky</span>
-                <span>INBOX COLLECTIVE</span>
+                <div>
+                  <span className={styles.containerInfoName}>Dan Oshinsky</span>
+                  <span>INBOX COLLECTIVE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.container} ${styles.sectionBoost}`}>
+        <div className={styles.containerBoost}>
+          <div>
+            <img
+              src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af37583263c71048994be3_giveaways%401x.jpg"
+              loading="lazy"
+              sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 42vw"
+              srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af37583263c71048994be3_giveaways%401x-p-500.jpeg 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af37583263c71048994be3_giveaways%401x.jpg 875w"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2>
+              <span>Boost growth</span> with a giveaway
+            </h2>
+            <p>
+              Use prize-draws and giveaways to convert your audience on other
+              platforms into email subscribers. Or add FOMO to your referral
+              program with a time-limited giveaway.
+            </p>
+            <div className={styles.list}>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Leaderboard & sweepstake options
+              </span>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Automatically pick the winner(s)
+              </span>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Industry-leading anti-fraud protection
+              </span>
+            </div>
+            <div className={styles.buttons}>
+              <button>Find out more</button>
+              <button className={styles.buttonSecond}>Get a demo</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.containerInfo}>
+          <div className={styles.containerInfoSecond}>
+            <div className={styles.flex}>
+              <div>
+                <p>
+                  Before moving to SparkLoop I spent ages trying to hack
+                  together a referral giveaway with other tools. What you've
+                  built here is
+                  <span>
+                    so much better for newsletter growth than anything else
+                  </span>{' '}
+                  on the market!
+                </p>
+                <div>
+                  <span className={styles.containerInfoName}>
+                    Emanuel Cinca
+                  </span>
+                  <span>STACKED MARKETER NEWSLETTER</span>
+                </div>
+              </div>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3883e7ad8f0a992896e2_manu%20cinca%20(1).jpeg"
+                loading="lazy"
+                width="391"
+                id="w-node-_517100b9-b911-1162-dcb5-999f448fa448-13067427"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3883e7ad8f0a992896e2_manu%20cinca%20(1)-p-500.jpeg 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3883e7ad8f0a992896e2_manu%20cinca%20(1).jpeg 680w"
+                sizes="(max-width: 479px) 16vw, (max-width: 767px) 17vw, (max-width: 991px) 42vw, 55vw"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.container} ${styles.sectionUnlock}`}>
+        <div className={styles.containerUnlock}>
+          <div>
+            <h2>
+              <span>Unlock next-level growth</span> with partnerships
+            </h2>
+            <p>
+              From sponsoring other newsletters to influencers and ambassador
+              programs — you’ll save hours and boost performance by up to 3x
+              with our suite of partnership tools.
+            </p>
+            <div className={styles.list}>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Accurately track performance and ROI
+              </span>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Discover thousands of potential partners
+              </span>
+              <span>
+                <FontAwesomeIcon className={styles.icon} icon={faChevronDown} />
+                Use our "magic" links for one-click opt-ins
+              </span>
+            </div>
+            <div className={styles.buttons}>
+              <button>Find out more</button>
+              <button className={styles.buttonSecond}>Talk to an expert</button>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c55dcf4af507021a3cc97b_partner%20network.png"
+              loading="lazy"
+              id="w-node-daa72fa0-5239-26ec-a52b-215505af1f5f-13067427"
+              sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 42vw"
+              srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c55dcf4af507021a3cc97b_partner%20network-p-500.png 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c55dcf4af507021a3cc97b_partner%20network-p-800.png 800w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c55dcf4af507021a3cc97b_partner%20network.png 1208w"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className={styles.containerInfo}>
+          <div className={styles.containerInfoSecond}>
+            <div className={styles.flex}>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af399682ada244d3a0503c_Jason%20Headshot%20with%20Laptop%20(1).jpg"
+                loading="lazy"
+                width="391"
+                id="w-node-f1a156ed-64e3-31a4-6272-45c04c76a70c-13067427"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af399682ada244d3a0503c_Jason%20Headshot%20with%20Laptop%20(1)-p-500.jpeg 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af399682ada244d3a0503c_Jason%20Headshot%20with%20Laptop%20(1)-p-800.jpeg 800w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af399682ada244d3a0503c_Jason%20Headshot%20with%20Laptop%20(1).jpg 1000w"
+                sizes="(max-width: 479px) 16vw, (max-width: 767px) 17vw, (max-width: 991px) 42vw, 28vw"
+                alt=""
+              />
+              <div>
+                <p>
+                  We upgraded to SparkLoop because it's obviously the best
+                  referral software for media brands. But — honestly —
+                  <span>the real game-changer for our audience growth</span> has
+                  been SparkLoop's suite of partner tools.
+                </p>
+                <div>
+                  <span className={styles.containerInfoName}>
+                    Jason Woodruff
+                  </span>
+                  <span>THE POUR OVER</span>
+                </div>
               </div>
             </div>
           </div>
