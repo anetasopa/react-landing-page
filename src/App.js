@@ -146,7 +146,7 @@ export default function App() {
         </div>
         <div className={styles.containerInfo}>
           <div className={styles.containerInfoSecond}>
-            <div>
+            <div className={styles.flex}>
               <img
                 src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af380ee7ad8f79aa28950c_cropped-dan-oshinsky-dot-com-header-scaled-1%20(1).jpeg"
                 loading="lazy"
@@ -156,17 +156,17 @@ export default function App() {
                 sizes="(max-width: 479px) 16vw, (max-width: 767px) 17vw, (max-width: 991px) 42vw, 28vw"
                 alt=""
               />
-            </div>
-            <div>
-              <p>
-                SparkLoop is the fastest way to get a newsletter referral
-                program — like TheSkimm and Morning Brew — up and running. I've
-                tested different referral tools, but{' '}
-                <span>none is as easy to use or as cost effective</span> as
-                SparkLoop.
-              </p>
-              <span>Dan Oshinsky</span>
-              <span>INBOX COLLECTIVE</span>
+              <div>
+                <p>
+                  SparkLoop is the fastest way to get a newsletter referral
+                  program — like TheSkimm and Morning Brew — up and running.
+                  I've tested different referral tools, but{' '}
+                  <span>none is as easy to use or as cost effective</span> as
+                  SparkLoop.
+                </p>
+                <span>Dan Oshinsky</span>
+                <span>INBOX COLLECTIVE</span>
+              </div>
             </div>
           </div>
         </div>

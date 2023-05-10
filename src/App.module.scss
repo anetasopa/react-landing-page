@@ -270,14 +270,30 @@ main section {
     .newsLetterImg {
       width: 90%;
     }
+  }
 
-    .containerInfo {
-      padding: 0 20px;
+  .containerInfo {
+    padding: 0 20px;
 
-      .containerInfoSecond {
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-start;
+    .containerInfoSecond {
+      color: #171130;
+      background-color: #f8f5fc;
+      background-image: linear-gradient(
+          rgba(248, 245, 252, 0.9),
+          rgba(248, 245, 252, 0.9)
+        ),
+        url('https://global-uploads.webflow.com/6278ffa…/62aa174…_icons8-get-quote.svg');
+      background-position: 0 0, 100% 100%;
+      background-repeat: repeat, no-repeat;
+      background-size: auto, 200px;
+      border-radius: 5px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 66px 60px;
+      display: flex;
+
+      .flex {
         display: flex;
       }
     }
