@@ -1,5 +1,5 @@
 .container {
-  max-width: 1192px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -110,7 +110,7 @@ main section {
 
     p {
       width: 45%;
-      color: #171130;
+      color: var(--color-black);
       letter-spacing: -0.5px;
       font-size: 24px;
       font-weight: 400;
@@ -151,29 +151,101 @@ main section {
   }
 }
 
-.sectionBrands {
-  span {
-    color: var(--color-black-light);
-    letter-spacing: -0.1px;
-    font-size: 0.8rem;
-    line-height: 1.75em;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    margin-top: 60px;
-  }
+.sectionHeaderSecond {
+  background-color: var(--background-color-brand);
 
   div {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
-    img {
-      width: 100%;
-      height: 25px;
-      opacity: 0.8;
-      object-fit: contain;
+    .sectionBrands {
+      padding-top: 60px;
+
+      span {
+        color: var(--color-black-light);
+        letter-spacing: -0.1px;
+        font-size: 0.8rem;
+        line-height: 1.75em;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+      }
+
+      div {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 30px;
+
+        img {
+          width: 100%;
+          height: 25px;
+          opacity: 0.8;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+.sectionGrow {
+  padding: 175px 0;
+
+  .containerGrow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    h2 {
+      margin-bottom: 0.5em;
+      color: var(--color-black);
+      letter-spacing: -0.5px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.4em;
+
+      span {
+        color: var(--background-color-button);
+        font-weight: 700;
+      }
+    }
+
+    p {
+      line-height: 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .buttons {
+      display: flex;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    button {
+      color: var(--color-white);
+      background-color: var(--background-color-button);
+      border-radius: 5px;
+      align-items: center;
+      margin-left: 20px;
+      padding: 15px 20px;
+      font-weight: 700;
+      font-size: 1.01rem;
+      line-height: 1.65em;
+      display: flex;
+      border: none;
+      box-shadow: 0 3px 6px rgba(45, 51, 93, 0.09);
+    }
+
+    .buttonSecond {
+      background-color: var(--color-white);
+      color: var(--color-black);
+    }
+
+    .newsLetterImg {
+      width: 90%;
     }
   }
 }
