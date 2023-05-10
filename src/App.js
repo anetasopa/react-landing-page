@@ -317,6 +317,18 @@ export default function App() {
           </div>
         </div>
       </section>
+      <section className={styles.sectionIntegrations}>
+        <div>
+          <h2>The easiest set-up possible</h2>
+          <p>
+            SparkLoop has native integrations with 15+ email platforms. So
+            you'll be making referrals within minutes... no code needed!
+          </p>
+        </div>
+        <div>
+          <div></div>
+        </div>
+      </section>
     </>
   );
 }

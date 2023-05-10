@@ -657,3 +657,34 @@ main section {
     }
   }
 }
+
+.sectionIntegrations {
+  background-color: var(--background-color-dark);
+
+  div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 175px;
+
+    h2 {
+      letter-spacing: -0.5px;
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--color-white);
+      line-height: 1.35em;
+      margin-bottom: 0.375em;
+    }
+
+    p {
+      letter-spacing: -0.5px;
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+      font-weight: 400;
+      width: 20%;
+      margin: auto;
+      color: var(--color-white);
+    }
+  }
+}
