@@ -928,3 +928,114 @@ main section {
     }
   }
 }
+
+.sectionConnect {
+  background-color: var(--background-color-dark);
+
+  div {
+    padding-top: 30px;
+
+    h2 {
+      text-align: center;
+      letter-spacing: -0.5px;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: var(--color-white);
+      line-height: 1.35em;
+      margin-bottom: 0.375em;
+    }
+
+    p {
+      align-items: center;
+      letter-spacing: -0.5px;
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+      font-weight: 400;
+      width: 25%;
+      text-align: center;
+      margin: auto;
+      color: var(--color-white);
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    button {
+      color: var(--color-white);
+      background-color: var(--background-color-button);
+      border-radius: 5px;
+      align-items: center;
+      margin-left: 20px;
+      padding: 15px 20px;
+      font-weight: 700;
+      font-size: 1.01rem;
+      line-height: 1.65em;
+      display: flex;
+      border: none;
+      box-shadow: 0 3px 6px rgba(45, 51, 93, 0.09);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .buttonSecond {
+      background-color: var(--color-white);
+      color: var(--color-black);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .sectionConnectBrands {
+    background-color: var(--background-color-dark);
+
+    div {
+      width: 100%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 750px;
+
+      .sectionBrands {
+        padding-top: 60px;
+
+        span {
+          color: var(--color-white);
+          letter-spacing: -0.1px;
+          font-size: 0.8rem;
+          line-height: 1.75em;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          display: flex;
+        }
+
+        div {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          padding: 30px;
+          margin-top: 30px;
+
+          img {
+            width: 100%;
+            height: 25px;
+            opacity: 0.8;
+            object-fit: contain;
+          }
+        }
+
+        @media (max-width: 480px) {
+          div {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}

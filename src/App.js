@@ -497,6 +497,69 @@ export default function App() {
           </div>
         </div>
       </section>
+      <section className={styles.sectionConnect}>
+        <div>
+          <h2>Plans that scale with your audience</h2>
+          <p>
+            From your first newsletter referral program to unlocking new growth
+            for a household media brand — there’s a SparkLoop plan that’s
+            perfect for your needs.
+          </p>
+          <div className={styles.buttons}>
+            <button>Talk to an expert</button>
+            <button className={styles.buttonSecond}>
+              Discover our pricing
+            </button>
+          </div>
+        </div>
+        <div className={styles.sectionConnectBrands}>
+          <div>
+            <div className={styles.sectionBrands}>
+              <span>TRUSTED BY THOUSANDS OF TOP BRANDS:</span>
+              <div>
+                <img
+                  src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c43f6b4caf55b3b80d65db_flipside-loog.png"
+                  loading="lazy"
+                  height="50"
+                  alt=""
+                />
+                <img
+                  src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c43ef18380511f14b25eab_fos-logo.png"
+                  loading="lazy"
+                  height="50"
+                  alt=""
+                />
+                <img
+                  src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo.png"
+                  loading="lazy"
+                  height="50"
+                  sizes="(max-width: 479px) 44vw, (max-width: 767px) 26vw, (max-width: 991px) 30vw, 13vw"
+                  srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo-p-500.png 500w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo-p-800.png 800w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo-p-1080.png 1080w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo-p-1600.png 1600w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo-p-2000.png 2000w, https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead55755e88655ca08f44_front%20office%20sports%20logo.png 2818w"
+                  alt=""
+                />
+                <img
+                  src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c43ef1defb610b403ca32a_1440-transparent-logo-no-tag-1024-x-310%403x.png"
+                  loading="lazy"
+                  height="50"
+                  alt=""
+                />
+                <img
+                  src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/634ead35293a50aaa7c8e6e4_Girlboss_Logo_Wordmark_Black.png"
+                  loading="lazy"
+                  height="50"
+                  alt=""
+                />
+                <img
+                  src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62c43ef09017e46ce1ce30f6_punchbowl-logo.png"
+                  loading="lazy"
+                  height="50"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
