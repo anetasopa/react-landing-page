@@ -9,5 +9,9 @@
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The original page is at this [link](https://sparkloop.app/?ref=landingfolio).
+
+You can see the code [here](https://codesandbox.io/s/github/butterfly-123/react-landing-page).
+
 The project was **based** on `React` and `Sass Modules`.
 
