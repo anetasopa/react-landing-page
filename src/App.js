@@ -418,6 +418,85 @@ export default function App() {
           />
         </div>
       </section>
+      <section className={styles.sectionBrainer}>
+        <div className={`${styles.container} ${styles.containerBrainer}`}>
+          <h2>
+            "The <span>no-brainer</span> choice"
+          </h2>
+          <p>
+            When you choose SparkLoop over other solutions, you'll{' '}
+            <span>grow 2.3x faster, spend 3.7x less</span> per referral, and
+            <span>save hundreds of hours</span> wasted on boring manual work.
+          </p>
+          <div className={styles.buttons}>
+            <button>Get a demo</button>
+            <button className={styles.buttonSecond}>Start For Free</button>
+          </div>
+        </div>
+        <div className={styles.containeExamples}>
+          <div className={styles.containerExamplesContent}>
+            <div>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af375837289b732dd6e23e_Illustration%204.jpg"
+                loading="lazy"
+                sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 73vw"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af375837289b732dd6e23e_Illustration%204.jpg 2000w"
+                alt=""
+              />
+              <h3>Easy 2-click integration</h3>
+              <p>
+                Connect SparkLoop to your email platform in just two clicks. No
+                code or messy Zapier hacks needed. It just works!
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3758da5431653b6ff84a_Connect%20to%20%5BPRINTFUL%20logo%5D%401x.jpg"
+                loading="lazy"
+                sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 73vw"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3758da5431653b6ff84a_Connect%20to%20%5BPRINTFUL%20logo%5D%401x.jpg 2000w"
+                alt=""
+              />
+              <h3>Fully automated reward fulfilment</h3>
+              <p>
+                SparkLoop is the only solution that lets you fully automate any
+                kind of referral rewards in just a few clicks.
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af37584e778087ebaff401_anti-fraud%401x.jpg"
+                loading="lazy"
+                sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 73vw"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af37584e778087ebaff401_anti-fraud%401x.jpg 2000w"
+                alt=""
+              />
+              <h3>Industry-leading anti-fraud</h3>
+              <p>
+                Fake referrals and cheating are a major headache for any
+                referral program — if you’re not using SparkLoop. Rest easy with
+                the only solution proven to work for the world’s largest
+                newsletter referral programs.
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3758c7c1e416a27405bc_analytics%401x.jpg"
+                loading="lazy"
+                sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 73vw"
+                srcSet="https://global-uploads.webflow.com/6278ffab9cf6e95f0162ea8e/62af3758c7c1e416a27405bc_analytics%401x.jpg 2000w"
+                alt=""
+              />
+              <h3>High-volume ready</h3>
+              <p>
+                The largest media brands and newsletters trust SparkLoop to
+                power their audience growth. As a high-volume sender, you’ll
+                feel right at home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
