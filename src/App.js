@@ -433,7 +433,7 @@ export default function App() {
             <button className={styles.buttonSecond}>Start For Free</button>
           </div>
         </div>
-        <div className={styles.containeExamples}>
+        <div className={styles.containerExamples}>
           <div className={styles.containerExamplesContent}>
             <div>
               <img
@@ -594,7 +594,6 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div></div>
       </footer>
     </>
   );
