@@ -560,6 +560,42 @@ export default function App() {
           </div>
         </div>
       </section>
+      <footer className={styles.footer}>
+        <div>
+          <div>
+            <div>
+              <a className={styles.logo} href="/#">
+                sparkloop
+              </a>
+            </div>
+            <div>
+              <h5>FEATURES</h5>
+              <a href="/#">Rewards</a>
+              <a href="/#">Giveaways</a>
+              <a href="/#">Referral Hub</a>
+              <a href="/#">Analytics</a>
+              <a href="/#">Integrations</a>
+            </div>
+            <div>
+              <h5>FEATURES</h5>
+              <a href="/#">Rewards</a>
+              <a href="/#">Giveaways</a>
+              <a href="/#">Referral Hub</a>
+              <a href="/#">Analytics</a>
+              <a href="/#">Integrations</a>
+            </div>
+            <div>
+              <h5>FEATURES</h5>
+              <a href="/#">Rewards</a>
+              <a href="/#">Giveaways</a>
+              <a href="/#">Referral Hub</a>
+              <a href="/#">Analytics</a>
+              <a href="/#">Integrations</a>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </footer>
     </>
   );
 }
